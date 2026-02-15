@@ -6,7 +6,7 @@ pipeline {
     }
     stages {
         stage('clone') {
-            steps {
+            steps { 
               git 'https://github.com/ashokitschool/maven-web-app.git'
             }
         }
